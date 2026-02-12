@@ -1,0 +1,8 @@
+/**
+ * Content script styles — injected into web pages where the extension runs.
+ * Scope custom UI under [data-premium-extension] to avoid affecting the host page.
+ */
+
+img.ytd-yoodle-renderer {
+  max-width: 122px !important;
+}
